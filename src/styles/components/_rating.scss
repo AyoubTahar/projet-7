@@ -1,0 +1,19 @@
+.starcontainer{
+    height: 15px;
+    width: 15px;
+    display: flex;
+    
+
+        img{
+            margin-right: 5px;
+        }
+}
+
+@media screen and (min-width : 768px) {
+    .starcontainer{
+        height: 30px;
+        width: 30px;
+        margin-left: -50px;
+        margin-top: 30px;
+    }
+}
